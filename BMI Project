@@ -1,0 +1,27 @@
+# My-projects
+#My Body mass index calculator
+print ("WELCOME TO JUWON'S BODY MASS INDEX CALCULATOR" )
+name = str(input('Please enter your name'))
+
+height = float(input ('Enter your Height'))
+
+weight = int(input ("Please be honest with your weight lol "))
+
+height_in_inches = height*12
+
+bmi = 703 * weight/(height_in_inches**2)
+
+
+def bmi_calc(name,weight,height_in_inches12):
+    
+    ''' This function is for my body mass index Project'''
+    bmi = 703 * weight/(height_in_inches**2)
+    while bmi < 25 == True:
+        return name, "You are not Over weight"
+        bmi+=1
+    else :
+        pass
+        if bmi >25:
+            return name,"I'm Afraid you are overweight",bmi
+results = bmi_calc(name,weight,height_in_inches)
+print ( 'Your bmi is:', bmi)
