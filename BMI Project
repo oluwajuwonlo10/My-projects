@@ -1,4 +1,7 @@
 # My-projects
+# This project was developed to help calculate a person's BMI . 
+#This project also tells you if you are over weight or not depending on the parameters given to it
+
 #My Body mass index calculator
 print ("WELCOME TO JUWON'S BODY MASS INDEX CALCULATOR" )
 name = str(input('Please enter your name'))
